@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "*.cu": "c",
+        "*.tdd": "makefile",
+        "*.cfg": "tcl",
+        "*.svd": "xml",
+        "*.hpp": "cpp",
+        "uartstdio.h": "c",
+        "stdint.h": "c",
+        "pin_map.h": "c",
+        "rom.h": "c",
+        "hw_ints.h": "c",
+        "hw_memmap.h": "c",
+        "hw_types.h": "c",
+        "htu21d_hw.h": "c",
+        "interrupt.h": "c"
+    }
+}

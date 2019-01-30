@@ -1,0 +1,24 @@
+#ifndef _HTU21D_HW_H
+#define _HTU21D_HW_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#define HTU21D_ADDRESS 0x40  // Unshifted 7-bit I2C address for the sensor
+
+#define HTU21D_TRIGGER_TEMP_MEASURE_HOLD 0xE3
+#define HTU21D_TRIGGER_HUMD_MEASURE_HOLD 0xE5
+#define HTU21D_TRIGGER_TEMP_MEASURE_NOHOLD 0xF3
+#define HTU21D_TRIGGER_HUMD_MEASURE_NOHOLD 0xF5
+#define HTU21D_WRITE_USER_REG 0xE6
+#define HTU21D_READ_USER_REG 0xE7
+#define HTU21D_SOFT_RESET 0xFE
+
+#define HTU21D_USER_REGISTER_RESOLUTION_MASK 0x81
+#define DEFAULT_RESOLUTION HUMIDITY_12_TEMP_14
+
+#ifdef __cplusplus
+}
+#endif
+#endif
