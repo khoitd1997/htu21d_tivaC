@@ -1,4 +1,4 @@
-#include "include/htu21d.h"
+#include "htu21d.h"
 
 #include "htu21d_hw.h"
 #include "htu21d_i2c.h"
@@ -19,7 +19,7 @@
 #include "driverlib/sysctl.h"
 #include "utils/uartstdio.h"
 
-#include "debug_utils/swo_segger.h"
+#include "swo_segger.h"
 
 static unsigned long htu21d_get_meas_delayms(Htu21d_resolution res, uint8_t type) {
   switch (res) {

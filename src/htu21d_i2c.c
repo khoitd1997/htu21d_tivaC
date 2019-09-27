@@ -1,6 +1,6 @@
 #include "htu21d_i2c.h"
+#include "htu21d.h"
 #include "htu21d_hw.h"
-#include "include/htu21d.h"
 
 #include <assert.h>
 #include <stdbool.h>

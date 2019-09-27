@@ -3,7 +3,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include "include/htu21d.h"
+#include "htu21d.h"
 
 #include <stdint.h>
 

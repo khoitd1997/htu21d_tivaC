@@ -13,7 +13,7 @@
 #include "inc/hw_memmap.h"
 #include "inc/hw_types.h"
 
-#include "include/htu21d.h"
+#include "htu21d.h"
 
 void uartConfigure(uint32_t baudRate) {
   // Enable the GPIO Peripheral used by the UART.
